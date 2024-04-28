@@ -1,0 +1,6 @@
+let div = document.getElementById("dev").nextElementSibling
+let h = document.createElement('h3')
+let p = document.createElement('p')
+h.textContent = "Why no JavaScript?"
+p.textContent = "You may notice that there was no JavaScript for this page except for the JavaScript used to add this section. My thoughts are, if you expect me to use JavaScript on a personal website, you probably have JavaScript enabled. So you can see this. Other people can't. I did all of the stylings and size/hover responsiveness in CSS, and all of the click functions in HTML. The entire website works just fine with no JavaScript or CSS (although it doesn't look very good!), which is, in my opinion, the way it should be. I love messing around with websites via JavaScript, which is why I added this JavaScript-enabled Easter Egg here. But I don't want it to become inaccessible. My top priority is other disabled people. People who go to extreme measures to protect their data aren't quite second, but they certainly rank higher in my priorities than impressing the type of person who thinks every website should be full of JavaScript."
+div.append(h,p)
